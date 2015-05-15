@@ -1,0 +1,21 @@
+{
+  "name": "pic-hack",
+  "version": "0.0.1",
+  "description": "Hacking for PiC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "sheetrock": "^1.0.0"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/annapowellsmith/pic-hack"
+  },
+  "keywords": []
+}
