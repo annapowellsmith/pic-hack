@@ -7,10 +7,12 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
 
+    response.send('Hello World!');
+
     var myCallback = function (error, options, response) {
     if (!error) {
         console.log('callback ran');
-        //response.send('Hello World!');
+        //
         /*
           Parse response.data, loop through response.rows, or do something with
           response.html.
